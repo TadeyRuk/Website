@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+nav { 
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+nav ul { 
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 40px;
+ 
+}
+
+nav ul li a{ 
+    color: black;
+    font-size: 19px;
+    padding-right: 100px;
+}
+
+
+.Menu {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffb3b3;
+    justify-content: space-between;
+}
+
+.menu-dashboard {
+    padding-left: 80px;
+}
+
+.menu-image img{
+    width: 500px;
+    border-radius: 30%;
+}
+
+.menu-dashboard {
+    font-size: 30px;
+}
+
+.about-content { 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.about-content p{ 
+    font-size: 20px;
+}
+
+.about-content h3{ 
+    font-size: 25px;
+}
+
+.Memories h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.MemoryCards {
+    background: skyblue;
+    padding: 30px;
+    border-radius: 40px;
+    max-width: 35%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.MemoryCards p{ 
+    margin-top: 15px;
+}
+
+.Ayie {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.Ayie h2{ 
+    font-size: 30px;
+}
+
+.Ayie p{
+    font-size: 20px;
+}
+
+.Memories{
+    font-size: 20px;
+    margin-top: 90px ;
+}
