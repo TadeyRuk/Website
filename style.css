@@ -60,29 +60,29 @@ nav ul li:hover::after {
     padding: 50px;
     background-color: #ffb3b3;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .hero p{ 
     font-size: 23px;
 }
 
-.hero-content { 
-    max-width: 500;
+.hero-content {
+    max-width: 500px;
 }
 
-.hero-content h1 { 
-    font-size: 103m
-    
+.hero-content h1 {
+    font-size: 3rem;
 }
 
 .hero-content {
-    margin: 20px, 0 ;
+    margin: 20px 0;
     font-size: 1.2em;
-    
 }
 
 .cta-button {
-     padding: 15px, 30px;
+     padding: 15px 30px;
      background-color: skyblue;
      color: black;
      border: none;
@@ -92,7 +92,8 @@ nav ul li:hover::after {
 }
 
 .hero-image img{
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     border-radius: 20%;
 }
 
@@ -149,7 +150,33 @@ nav ul li:hover::after {
     font-style: normal;
   }
 
-.hero-contact { 
-    transform: translateY(-50);
+.hero-contact {
+    transform: translateY(-50px);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        gap: 15px;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    .hero {
+        padding: 30px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-content {
+        flex-wrap: wrap;
+    }
+
+    .about-card {
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
