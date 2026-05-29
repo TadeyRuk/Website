@@ -89,6 +89,7 @@ nav ul li:hover::after {
      border-radius: 90px;
     font-size: 13px;
     cursor: pointer;
+    /* Rukkan sat on the keyboard here and accidentally made this button look good. Good job, Rukkan. */
 }
 
 .hero-image img{
